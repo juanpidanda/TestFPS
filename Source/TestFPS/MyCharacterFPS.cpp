@@ -31,3 +31,15 @@ void AMyCharacterFPS::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
+
+void AMyCharacterFPS::DummyFunction() {
+	GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Cyan, TEXT("Jumping"));
+}
+
+void AMyCharacterFPS::Walk() {
+
+}
+
+void AMyCharacterFPS::DummyCode() {
+
+}
